@@ -1,4 +1,4 @@
-# 2024-06-01 07:00
+# 2024-07-21 21:35
 
 # ======= A ======= #
 # 阿里巴巴
@@ -45,6 +45,7 @@ IP-CIDR, 180.76.76.200/32, REJECT
 
 # ======= C ======= #
 # 彩云天气
+HOST, abyss.cyapi.cn, REJECT
 HOST, ad.cyapi.cn, REJECT
 # 昌原云充
 HOST, m.adyounger.com, REJECT
@@ -60,6 +61,10 @@ HOST, md-i-s.apptimize.com, REJECT
 # DNS 无响应
 HOST, adttrackingprd.hwwt8.com, REJECT
 
+# ======= F ======= #
+# 放松双眼
+HOST, adservice.sigmob.cn, REJECT
+
 # ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
@@ -68,24 +73,37 @@ HOST, pageviewp.icbc.com.cn, REJECT
 HOST-SUFFIX, mall.icbc.com.cn, REJECT
 # 广告联盟
 HOST, ad.zijieapi.com, REJECT
+HOST, adapi.izuiyou.com, REJECT
+HOST, adtracker.adfunlink.com, REJECT
+HOST, dig.bdurl.net, REJECT
+HOST, dsp-x.jd.com, REJECT
+HOST, et.tanx.com, REJECT
+HOST, gdfp.gifshow.com, REJECT
 HOST, init.supersonicads.com, REJECT
 HOST, is.snssdk.com, REJECT
+HOST, janapi.jd.com, REJECT
+HOST, mercury-gateway.ixiaochuan.cn, REJECT
 HOST, open.e.kuaishou.com, REJECT
 HOST, open.kuaishou.com, REJECT
 HOST, pagead2.googlesyndication-cn.com, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
+HOST, sdk.e.qq.com, REJECT
 HOST, ws.tapjoyads.com, REJECT
 HOST, www.googleadservices.com, REJECT
+HOST, xlog.jd.com, REJECT
 HOST-SUFFIX, ads.linkedin.com, REJECT
 HOST-SUFFIX, ads.vungle.com, REJECT
 HOST-SUFFIX, adservice.google.com, REJECT
+HOST-SUFFIX, adukwai.com, REJECT
 HOST-SUFFIX, applovin.com, REJECT
 HOST-SUFFIX, applvn.com, REJECT
 HOST-SUFFIX, appsflyer.com, REJECT
 HOST-SUFFIX, appsflyersdk.com, REJECT
 HOST-SUFFIX, kuaishouzt.com, REJECT
 HOST-SUFFIX, miaozhen.com, REJECT
+HOST-SUFFIX, ubixioe.com, REJECT
 HOST-SUFFIX, unityads.unity3d.com, REJECT
+HOST-SUFFIX, zijieapi.com, REJECT
 HOST-KEYWORD, -ad-sign.byteimg.com, REJECT
 HOST-KEYWORD, ads.g.doubleclick, REJECT
 HOST-KEYWORD, asiad.byteactivity, REJECT
@@ -152,6 +170,10 @@ HOST, acdn.adnxs.com, REJECT
 HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
 
+# ======= Q ======= #
+# 其他
+HOST, affcpatrk.com, REJECT
+
 # ======= S ======= #
 # 什么值得买
 HOST, api.zuihuimai.com, REJECT
@@ -162,11 +184,6 @@ HOST, ad-h5-cdn.soulapp.cn, REJECT
 HOST, ad-h5-station-cdn.soulapp.cn, REJECT
 HOST, ad-r.soulapp.cn, REJECT
 HOST, soul-ad.soulapp.cn, REJECT
-IP-CIDR, 47.56.131.76/32, REJECT
-IP-CIDR, 47.97.215.55/32, REJECT
-IP-CIDR, 47.99.42.29/32, REJECT
-IP-CIDR, 120.27.235.201/32, REJECT
-IP-CIDR, 121.196.197.147/32, REJECT
 # Speedtest
 HOST, ads.pubmatic.com, REJECT
 HOST, id.hadron.ad.gt, REJECT
@@ -200,13 +217,11 @@ HOST, iadmusicmat.music.126.net, REJECT
 HOST, iadmusicmatvideo.music.126.net, REJECT
 HOST, ipv4.music.163.com, REJECT
 HOST, ipv6.music.163.com, REJECT
-HOST-SUFFIX, 163jiasu.com, REJECT
 # 微博 开屏广告
 HOST, huodong.weibo.cn, REJECT
 HOST-SUFFIX, biz.weibo.com, REJECT
 # 微信
-HOST, wxsnsdy.wxs.qq.com, REJECT
-HOST, wxsnsdythumb.wxs.qq.com, REJECT
+HOST, badjs.weixinbridge.com, REJECT
 
 # ======= X ======= #
 # 小米
@@ -219,9 +234,7 @@ HOST, sdkconfig.ad.xiaomi.com, REJECT
 # ======= Y ======= #
 # 移花宫
 HOST, tong.8888888888.bid, REJECT
-HOST-KEYWORD, kc.saigmpl.com, REJECT
-HOST-KEYWORD, kcc.fwxhvvd.com, REJECT
-HOST-KEYWORD, kg.oiocklg.com, REJECT
+HOST-KEYWORD, 4240585f1fb7266, REJECT
 # 优酷 & 菜鸟
 ;HOST, acs.youku.com, REJECT
 HOST, acs4baichuan.m.taobao.com, REJECT
@@ -246,7 +259,6 @@ HOST, youku-acs.m.taobao.com, REJECT
 # 云闪付 开屏广告
 HOST, ads.95516.com, REJECT
 HOST, switch.cup.com.cn, REJECT
-;HOST, tysdk.95516.com, REJECT
 # Yandex
 HOST, yandexmetrica.com, REJECT
 
