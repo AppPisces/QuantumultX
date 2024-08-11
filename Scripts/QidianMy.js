@@ -3,7 +3,7 @@
 # 功能：起点我的页面净化js脚本文件
 # 原作者：Yu9191
 # 现作者：GitHub-YungHsin
-# 脚本链接：https://raw.githubusercontent.com/GitHub-YungHsin/QuantumultX/main/Scripts/QidainMy.js
+# 脚本链接：https://raw.githubusercontent.com/AppPisces/QuantumultX/main/Scripts/QidainMy.js
 */
 
 /*
